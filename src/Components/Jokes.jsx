@@ -24,7 +24,7 @@ useEffect(() =>{
 
         <ul style={{ display:'flex', flexDirection:'column',gap:'20px', alignContent:"center", justifyContent:"center",  width:'50vw', backgroundColor: "blanchedalmond"}} >
             {
-                jokes.map(u => <Joke key={u.id} setup={u.setup} delivery={u.delivery}  ></Joke> || <Joke1 key={u.id}  joke={u.joke}  ></Joke1> ) 
+                jokes.map(u => <div><Joke key={u.id} setup={u.setup} delivery={u.delivery}  ></Joke> <Joke1 key={u.id}  joke={u.joke}  ></Joke1></div> ) 
                 
               
 
